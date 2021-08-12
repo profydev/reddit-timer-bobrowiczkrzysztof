@@ -1,0 +1,28 @@
+.fixednav {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  height: 60px;
+  margin-top: 40px;
+}
+
+a:first-child {
+  margin-right: auto;
+  margin-left: 80px;
+}
+
+a {
+  margin-left: 25px;
+  /* margin-right: 80px; */
+  text-decoration: none;
+}
+
+a:last-child {
+  margin-right: 80px;
+}
+
+nav {
+  margin-right: 80px;
+}
